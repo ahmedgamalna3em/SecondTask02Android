@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="hight_button">53dp</dimen>
+    <dimen name="hight_img">159dp</dimen>
+    <dimen name="heightforrow">115dp</dimen>
+</resources>

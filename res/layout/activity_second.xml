@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <ImageView
+        android:id="@+id/iv_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/img_bg"
+        android:scaleType="fitXY"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="15dp"
+
+        >
+
+        <ImageView
+            android:id="@+id/iv_android"
+            android:layout_width="match_parent"
+            android:layout_height="145dp"
+            android:src="@drawable/img_android"
+            android:scaleType="fitXY"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Part 1 ( Java SE )
+            \n1 - Introduction to java programing
+            \n * Overview.
+            \n * Compiler and JVM
+            \n * Project Structure
+            \n * Hello World Application
+            \n * Variables and Data Types
+            \n * Operator
+            \n * Conditional Statements ( IF - Switch )
+            \n * Loops ( For - While - Do While )
+            \n2- Basics
+            \n * neasted loops.
+            \n * Strings
+            \n * Arrays
+            "
+            android:textSize="27sp"
+
+
+
+        />
+
+    </LinearLayout>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

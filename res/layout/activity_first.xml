@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="15dp"
+
+        >
+
+        <ImageView
+            android:id="@+id/android_img"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/hight_img"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_android"
+            android:accessibilityDataSensitive="yes"
+            android:contentDescription="ANDROID COURSE and kotlin"
+
+
+
+            />
+        <Button
+            android:id="@+id/android_button"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/hight_button"
+            android:text="@string/android_course"
+            android:layout_marginTop="15dp"
+            />
+
+        <ImageView
+            android:id="@+id/ios_img"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/hight_img"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_ios"
+            android:accessibilityDataSensitive="yes"
+            android:contentDescription="IOS DEVELOPENT DIPLOMA"
+
+
+
+            />
+        <Button
+            android:id="@+id/ios_button"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/hight_button"
+            android:text="@string/ios_course"
+            android:layout_marginTop="15dp"
+            />
+
+
+        <ImageView
+            android:id="@+id/fullstak_img"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/hight_img"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_fullstack"
+            android:accessibilityDataSensitive="yes"
+            android:contentDescription="full stack DIPLOMA in beni suef round 30"
+
+
+
+            />
+        <Button
+            android:id="@+id/fullstack_button"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/hight_button"
+            android:text="@string/full_stack"
+            android:layout_marginTop="15dp"
+            />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

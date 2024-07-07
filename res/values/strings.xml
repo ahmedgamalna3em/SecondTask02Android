@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Task02RouteApp</string>
+    <string name="android_course">ANDROID COURSE BUTTON</string>
+    <string name="ios_course">IOS COURSE BUTTON</string>
+    <string name="full_stack">FULL STACK BUTTON</string>
+
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FourthActivity">
+
+    <ImageView
+        android:id="@+id/iv_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/img_bg"
+        android:scaleType="fitXY"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="15dp"
+
+        >
+
+        <ImageView
+            android:id="@+id/iv_android"
+            android:layout_width="match_parent"
+            android:layout_height="145dp"
+            android:src="@drawable/img_fullstack"
+            android:scaleType="fitXY"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:text="
+            * HTML
+            \n * HTML 5
+            \n * CSS
+            \n * CSS3
+            \n * SASSD
+            \n * Bootstrap 4
+            \n * JavaScript
+            \n * Regular expressions
+            \n * ECMAScript 6
+            \n * JQuery
+            \n * angular 7
+            \n * AJAX
+            \n * JSON
+            \n * Hosting and domins
+            \n * Freelancing tips and tricks
+            "
+            android:textSize="27sp"
+
+
+
+            />
+
+    </LinearLayout>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdActivity">
+
+    <ImageView
+        android:id="@+id/iv_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/img_bg"
+        android:scaleType="fitXY"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="15dp"
+
+        >
+
+        <ImageView
+            android:id="@+id/iv_android"
+            android:layout_width="match_parent"
+            android:layout_height="145dp"
+            android:src="@drawable/img_ios"
+            android:scaleType="fitXY"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="OOP refreshment
+            \n* - Introduction
+            \n a. Installing OSX virtual machine
+            \n b. Installing xcode and the ios SDK
+            \n c. A guided tour of Xcode
+            \n d. An introduction to Xcode playgrounds
+            \n* Swift Programming Language
+            \n a. Swift Data Types,constants,and Variables
+            \n b. Swift Operators and Expressions
+            \n c. Swift Flow Control
+            \n d. The Swift Switch Statement
+            \n e. An Overview of Swift
+
+            "
+            android:textSize="27sp"
+
+
+
+            />
+
+    </LinearLayout>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
